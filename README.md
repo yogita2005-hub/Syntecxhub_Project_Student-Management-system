@@ -1,38 +1,38 @@
-# Syntecxhub_Project_Student-Management-system
-A simple and efficient Command-Line Student Management System built using Python and Object-Oriented Programming (OOP). This project allows users to add, update, delete, and list student records with ease. Each student has a name, unique ID, and grade, and all records are stored safely in a CSV/JSON file for persistence.
+# Student Management System (Command-Line)
 
+A simple and efficient **Command-Line Student Management System** written in Python using Object-Oriented Programming (OOP).  
+This project lets you add, update, delete, and list student records, and persist data to CSV or JSON files for reuse between runs. Designed as a beginner-friendly project to demonstrate file I/O, OOP design, and basic validation.
 
-🔹 Key Features
+> Reference: original repository contents. :contentReference[oaicite:1]{index=1}
 
-Add New Students
-Store student details with validation to ensure unique student IDs.
+---
 
--Update Existing Records
-Modify name or grade while keeping the ID intact.
+## Features
 
--Delete Students
-Remove a student record cleanly from the system.
+- Add new students with a unique ID, name, and grade.
+- Update existing student records (name and/or grade).
+- Delete students by ID.
+- List all students in a formatted table.
+- File persistence using CSV or JSON (save and load on startup).
+- Object-Oriented design (`Student`, `StudentManager`).
+- Basic input validation and user-friendly prompts.
 
--List All Students
-Display formatted output of all stored student details.
+---
 
--File Persistence (CSV/JSON)
-Automatically saves and loads data so records remain available on restart.
+## Technologies
 
--Object-Oriented Design
-Uses Student and StudentManager classes to encapsulate data and operations.
+- Python 3.8+ (should work on most modern Python interpreters)
+- Standard library: `json`, `csv`, `os`, etc.
 
+---
 
+## Getting Started
 
-🛠️ Technologies Used
+### 1. Clone the repository
 
--Python
+git clone https://github.com/YogitaBambarse/Student-Management-system.git
+cd Student-Management-system
 
--OOP (Classes, Methods)
-
--JSON / CSV
-
-File I/O
 
 Basic validation and formatted output
 
